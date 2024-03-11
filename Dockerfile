@@ -8,7 +8,7 @@ ENV SHELL=/bin/bash
 ENV PYTHONUNBUFFERED=1
 ENV DEBIAN_FRONTEND=noninteractive
 
-COPY post_start.sh /post_start.sh
+COPY post_start_old.sh /post_start.sh
 
 RUN mkdir /workspace
 
