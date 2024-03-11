@@ -1,7 +1,7 @@
 #Prepare
 apt-get update
-apt-get install unzip
-apt-get install vim
+apt-get install -y unzip
+apt-get install -y vim
 
 #Install Custom Nodes
 # shellcheck disable=SC2164
