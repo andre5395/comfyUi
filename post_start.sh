@@ -49,3 +49,8 @@ wget -O epicrealism_naturalSin.safetensors "https://civitai.com/api/download/mod
 wget -O juggernaut_reborn.safetensors "https://civitai.com/api/download/models/274039?&token=41f6e8d688bd119c8ba0cd374a21c09f"
 wget -O juggernautXL_V9Rundiffusion.safetensors "https://civitai.com/api/download/models/348913?&token=41f6e8d688bd119c8ba0cd374a21c09f"
 wget -O babes30.safetensors "https://civitai.com/api/download/models/232703?&token=41f6e8d688bd119c8ba0cd374a21c09f"
+
+#Install VAE
+# shellcheck disable=SC2164
+cd /workspace/ComfyUI/models/vae/
+wget -O sdxl_vae.safetensors "https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
